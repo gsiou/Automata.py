@@ -1,27 +1,28 @@
 #Automata.py
 ####Simple program to construct automata (theory of computation) and check if strings are accepted by it
 
- Usage: `./Automata.py -h` (for help) or
- `./Automata.py -i inputfile.txt -c checkfile.txt`
- Both -i and -c arguments are optional.
- Input file is a file with Automata.py prompt commands (one command per line)
- Check file is a file with strings to be checked by current automaton (one strig per line)
- for help while in program prompt run program and type 'help'
+ Usage: `./Automata.py -h` (for help) or  
+ `./Automata.py -i inputfile.txt -c checkfile.txt`  
+ Both -i and -c arguments are optional.  
+ Input file is a file with Automata.py prompt commands (one command per line)  
+ Check file is a file with strings to be checked by current automaton (one strig per line)  
+ for help while in program prompt run program and type 'help'  
 
-After executing Automata.py a prompt appears.
-Prompt commands:
-add node1 node2 ...
-conn node_from node_to transitionchar1 transitionchar2 ...
-start node (makes node starting node)
-end node (makes node an ending node)
-check string (checks if string is accepted)
-reset (makes a new automaton)
-file myfile.txt (loads a file with commands)
-checkfile myfile.txt (loads a file with one string per line and checks them with current automaton)
-dump myfile.txt (saves current state to file to be loaded with file command)
-print (prints current state)
-exit (exits program)
-help (displays this information)
+After executing Automata.py a prompt appears.  
+Prompt commands:  
+
+add node1 node2 ...  
+conn node_from node_to transitionchar1 transitionchar2 ...  
+start node (makes node starting node)  
+end node (makes node an ending node)  
+check string (checks if string is accepted)  
+reset (makes a new automaton)  
+file myfile.txt (loads a file with commands)  
+checkfile myfile.txt (loads a file with one string per line and checks them with current automaton)  
+dump myfile.txt (saves current state to file to be loaded with file command)  
+print (prints current state)  
+exit (exits program)  
+help (displays this information)  
 
 
 Example of input file:
