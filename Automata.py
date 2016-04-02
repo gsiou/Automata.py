@@ -5,11 +5,11 @@
 #
 # simple program to check if string is accepted by given automata
 #         
-# Usage: ./Automata.py -h (for help) or"
-# ./Automata.py -i inputfile.txt -c checkfile.txt"
-# Both -i and -c arguments are optional."
-# Input file is a file with Automata.py prompt commands (one command per line)"
-# Check file is a file with strings to be checked by current automaton (one string per line)"
+# Usage: ./Automata.py -h (for help) or
+# ./Automata.py -i inputfile.txt -c checkfile.txt
+# Both -i and -c arguments are optional.
+# Input file is a file with Automata.py prompt commands (one command per line)
+# Check file is a file with strings to be checked by current automaton (one string per line)
 # for help while in program prompt run program and type 'help'
 # 
 # This program is free software: you can redistribute it and/or modify
